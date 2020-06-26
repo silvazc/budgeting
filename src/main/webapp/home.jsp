@@ -14,6 +14,7 @@
 <body>
     <form action="addUser">
         <input type="text" name="uid"><br>
+        <input type="text" name="userName"><br>
         <input type="submit"><br>
     </form>
 

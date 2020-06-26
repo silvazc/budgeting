@@ -1,7 +1,14 @@
 package com.example.budgetapp.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class User {
+
+    @Id
     private int uid;
+    private String userName;
 
     public int getUid() {
         return uid;
@@ -11,10 +18,19 @@ public class User {
         this.uid = uid;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "uid=" + uid +
+                ", userName='" + userName + '\'' +
                 '}';
     }
 }

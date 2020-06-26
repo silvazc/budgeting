@@ -1,0 +1,2 @@
+INSERT INTO user
+VALUES(101, 'Litos');
