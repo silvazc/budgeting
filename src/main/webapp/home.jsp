@@ -17,6 +17,14 @@
         <input type="text" name="userName"><br>
         <input type="submit"><br>
     </form>
-
+    <hr>
+    <form action="newReport" method="get">
+        <input type="text" name="spent">How much did you spend?<br>
+        <input type="text" name="category">Category<br>
+        <input type="text" name="subcategory">Subcategory<br>
+        <%-- Not everything needs to be a text field, but i just dont know how to do other stuff yet--%>
+        <input type="text" name="paymentType">Payment Type<br>
+        <input type="submit"><br>
+    </form>
 </body>
 </html>
